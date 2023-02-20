@@ -1,0 +1,122 @@
+body{
+    background-color:white;
+    margin: 0px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+#main-container {
+    display: grid;
+    row-gap: 5px;
+    background-color: #DCDCDC;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+#Navbar-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: start;
+    align-items: center;
+    column-gap: 20px;
+    background-color: white;
+    padding :5px;
+}
+
+#Navbar-stockName{
+    text-align: center;
+    color: blue;
+    margin-left: 10px;
+}
+
+#ohlc{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 8px;
+}
+
+#search-options{
+    display:grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 2px;
+}
+
+button{
+    border: none;
+    border-radius: 3px;
+    padding: 3px 7px;
+    background-color: lightskyblue;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+#time-frame{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2px;
+}
+
+#time-frame > span{
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+#time-frame > span:hover{
+    background-color: #DCDCDC;
+    cursor:pointer;
+}
+#Navbar-clicked{
+    color: #2a52be;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+#second-container{
+    background-color: #DCDCDC;
+    display:grid;
+    grid-template-columns: 110px auto  150px;
+    column-gap: 5px;
+    grid-template-rows: 720px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+#sidebar-container{
+    border-radius: 5px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: auto;
+}
+
+#sidebar-container > div{
+    text-align: center;
+    overflow: hidden;
+    text-overflow: hidden;
+    padding:10px;
+}
+#sidebar-container > div:hover{
+    background-color: #C8C8C8;
+    cursor:pointer;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+#listbar-container{
+    border-radius: 5px;
+    background-color: white;
+    overflow: auto;
+}
+
+#listbar-container>div:first-child{
+    padding: 8px 6px ;
+    border-bottom: 3px solid #DCDCDC;
+}
+
+#listbar-container > div{
+    margin: 0px;
+    font-size: 12;
+    padding: 2px 6px;
+    border-bottom: 0.1px solid #DCDCDC;
+}
+#listbar-container > #SelectedStock{
+    border: 0.1px solid black;
+}
+
+#listbar-container > div:hover{
+    background-color: #C8C8C8;
+    cursor:pointer;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+.tv-lightweight-charts{
+    border-radius: 5px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
