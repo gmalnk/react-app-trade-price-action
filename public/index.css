@@ -67,7 +67,7 @@ button{
 #second-container{
     background-color: #DCDCDC;
     display:grid;
-    grid-template-columns: 110px auto  150px;
+    grid-template-columns: 60px auto  150px;
     column-gap: 5px;
     grid-template-rows: 720px;
 }
@@ -83,11 +83,11 @@ button{
     text-align: center;
     overflow: hidden;
     text-overflow: hidden;
-    padding:10px;
+    padding:0px;
 }
 #sidebar-container > div:hover{
     background-color: #C8C8C8;
-    cursor:pointer;
+    cursor: pointer;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////// */
 #listbar-container{
